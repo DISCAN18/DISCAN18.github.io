@@ -16,7 +16,7 @@
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-css: ./assets/hotweb.css
+css: ./assets/discan.css
 
 # Build settings
 markdown: kramdown
@@ -25,6 +25,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-timezone: America/New_York
+timezone: Sweden/Stockholm
 google_analytics: UA-99357652-1
 

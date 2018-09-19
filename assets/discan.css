@@ -14,9 +14,20 @@
 }
 
 .jumbotron {
-    background-color: #e0e8ef;
+    background-color: #282828   ;
     padding: 0px 5px 0px 5px;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 25px 0px 0px;
+    color: white;
+}
+
+.darkonlight {
+  background-color: #282828
+  color: #343434
+}
+
+.lightondark {
+  background-color: #343434   
+  color: #282828
 }
 
 

@@ -1,67 +1,156 @@
-- date: "2017-10-14"
-  dateReadable: "October 14"
+- date: "2018-09-26"
+  dateReadable: "Decentralized Computing - September 26th"
   timeslots:
-  - startTime: "8:50"
-    endTime: "9:00"
-    title: "Open remarks"
-  - startTime: "9:00"
-    endTime: "10:00"
-    title: "Keynote I: Internet, Things, and Smartness"
-    speaker: "Samee U. Khan (NSF & North Dakota State University)"
-    chair: "Xiuzhen Cheng"
   - startTime: "10:00"
-    endTime: "10:30"
-    title: "Coffee break"
+    endTime: "11:00"
+    title: "Coffee & Morning Discussions"
     type: "service"
-  - startTime: "10:30"
+  - startTime: "11:00"
+    endTime: "11:30"
+    type: presentation
+    title: "Sharing Knowledge without Sharing Data: Secure Multiparty Computation on Big Data"
+    events:
+      - title: "Azer Bestavros: Boston University, USA"
+  - startTime: "11:30"
     endTime: "12:00"
-    title: "WEB"
-    type: "presentation"
-    events: 
-      - title: "Precog: Action-Based Time-Shifted Prefetching for Web Applications on Mobile Devices"
-        speakers: "Shruti Sanadhya:Hewlett Packard Labs, Palo Alto, CA; Uma Parthavi Moravapalle:Georgia Institute of Technology, Atlanta, GA; Kyu-Han Kim:Hewlett Packard Labs, Palo Alto, CA; Raghupathy Sivakumar:Georgia Institute of Technology, Atlanta, GA"
-      - title: "An Empirical Study of Financial Incentivized Question Answering in Social Websites"
-        speakers: "Huangxin Wang:George Mason University; Zhonghua Xi:George Mason University; Jean X. Zhang:Virginia Commonwealth University; Fei Li:George Mason University" 
-      - title: "Automated Least Privileges in Cloud-Based Web Services"
-        speakers: "Matthew Sanders:Colorado School of Mines; Chuan Yue:Colorado School of Mines"
-      - title: "Extracting Web Information using Representation Patterns"
-        speakers: "Juan C. Roldán:University of Sevilla; Patricia Jiménez:University of Sevilla; Rafael Corchuelo:University of Sevilla"
-      - title: "NoCDN: Scalable Content Delivery Without a Middleman"
-        speakers: "Junbo Xu:Case Western Reserve University; Michael Rabinovich:Case Western Reserve University"
+    type: presentation
+    title: "Dataset Marketplace Support for Deep Learning"
+    events:
+      - title: "Alex Ormenisan: KTH EECS, Sweden"
+        speakers: "Abstract: Large datasets ranging from tens of gigabytes or terabytes are the core of deep learning. Transferring these datasets from one platform to another can be a challenging task. There is also a need to be able to reproduce or re-run these experiments. As such, the link between computation and datasets as well as dataset evolution is important to track. "
   - startTime: "12:00"
     endTime: "13:30"
     title: "Lunch"
     type: "service"
   - startTime: "13:30"
-    endTime: "15:00"
-    title: "SECURITY"
-    type: "presentation"
-    events: 
-      - title: "Rethinking Information Sharing for Threat Intelligence"
-        speakers: "Aziz Mohaisen:University of Central Florida; Omar Al-Ibrahim:University of Central Florida; Charles Kamhoua:US Army Research Laboratory; Kevin Kwiat:Air Force Research Laboratory; Laurent L. Njilla:Air Force Research Laboratory"
-      - title: "Graphical passwords for older computer users"
-        speakers: "Nancy Carter:College of William & Mary; Ed Novak:Franklin & Marshall College; Cheng Li:College of William & Mary; Zhengrui Qin:Northwest Missouri State University; Qun Li:College of William & Mary; Jennifer A Stevens:College of William & Mary; Jiquo Yu:Qufu Normal University"
-      - title: "Mitigating DNS Random Subdomain DDoS Attacks by Efficient Distinct Heavy Hitters"
-        speakers: "Yehuda Afek:Tel-Aviv University, Israel; Anat Bremler-Barr:Interdisciplinary Center, Israel; Edith Cohen:Google Research and Tel-Aviv University; Shir Landau Feibish:Tel-Aviv University; Michal Shagam:Tel-Aviv University"
-      - title: "Understanding the Effectiveness of Typosquatting Techniques"
-        speakers: "Jeffrey Spaulding:University of Central Florida; DaeHun Nyang:Inha University; Aziz Mohaisen:University of Central Florida"
-      - title: "Inference attacks based on neural networks in social networks"
-        speakers: "Bo Mei:George Washington University; Yinhao Xiao:George Washington University; Hong Li:Chinese Academy of Sciences; Xiuzhen Cheng:George Washington University; Yunchuan Sun:Beijng Normal University"
-  - startTime: "15:00"
-    endTime: "15:30"
-    title: "Coffee break"
+    endTime: "14:00"
+    type: presentation
+    title: "Edge Compute at Hyperscale"
+    events:
+      - title: "Ali Shoker: INESC TEC, Portugal"
+        speakers: "Abstract: Edge computing is an extension to cloud computing that brings some of the computation and storage closer to the user. In addition to reducing the loads on the cloud datacenters, this brings several benefits like reduced response times, resilience to network failures, and privacy. The challenge is however how to build edge applications that are close to classical cloud applications as much as possible, i.e., beyond solo edge device computing or sticking to immutable data in a Peer to Peer manner. In this talk, we show how Conflict-free Replicated DataTypes (CRDT) can help building edge applications using replicated (mutable) data in a loosely coupled fashion. We then touch upon a novel hyper-scalable CRDT design where the meta-data overhead is logarithmic to the number of edge nodes."
+  - startTime: "14:00"
+    endTime: "14:30"
+    type: presentation
+    title: "Automerge: Replicated data structures for peer-to-peer collaboration"
+    events:
+      - title: "Martin Kleppmann: University of Cambridge, UK"
+        speakers: "Abstract: This talk introduces Automerge, a JavaScript library for data synchronisation between mobile devices such as laptop computers and smartphones. It allows users to read and modify data even while their device is offline, and it automatically merges changes made concurrently on different devices. Unlike most existing data synchronisation systems, Automerge does not require data to be sent via a centralised server, but rather allows local and peer-to-peer networks to be used. We show how this project spans the gamut from the theory of Conflict-free Replicated Data Types (CRDTs) and formal verification, all the way to implementing collaborative applications that use these data structures."
+  - startTime: "14:30"
+    endTime: "14:45"
+    title: "Coffee Break"
     type: "service"
-  - startTime: "15:30"
-    endTime: "16:40"
-    title: "ALL ABOUT INTERNET"
-    type: "presentation"
-    events: 
-      - title: "Edge Computing Enabled Smart Firefighting: Opportunities and Challenges"
-        speakers: "Xiaopei Wu:Wayne State University; Robert Dunne:Wayne State University, Detroit Fire Department; Qingyang Zhang:Anhui University, Wayne State University; Weisong Shi:Wayne State University; "
-      - title: "Graph-Pubsub: An Efficient Publish/Subscribe Architecture with Graph-Based Information Relationships"
-        speakers: "Jiachen Chen:WINLAB, Rutgers University; Haoyuan Xu:WINLAB, Rutgers University; Yanyong Zhang:WINLAB Rutgers University; Dipankar Raychaudhuri:WINLAB Rutgers University"
-      - title: "A Knowledge and Reasoning Toolkit for Cognitive Applications"
-        speakers: "Mustafa Canim:IBM Research; Cristina Cornelio:IBM Research; Robert Farrell:IBM Research; Achille Fokoue:IBM Research; Kyle Gao:IBM Research; John Gunnels:IBM Research; Arun Iyengar:IBM Research; Ryan Musa:IBM Research; Mariano Rodriguez-Muro:IBM Research"
-      - title: "Enabling Distributed Revision Control Systems in Delay-Tolerant"
-        speakers: "Philipp Hagemeister:Heinrich-Heine Universität Düsseldorf; Martin Mauve:Heinrich-Heine Universität Düsseldorf"
-    
+  - startTime: "14:45"
+    endTime: "15:15"
+    type: presentation
+    title: "Stad: Stateful Diffusion for Linear Time Community Detection"
+    events:
+      - title: "Amira Soliman: KTH EECS, Sweden"
+        speakers: "Abstract: In this talk, we present a stateful diffusion approach (Stad)
+for community detection that employs diffusion. Stad boosts
+diffusion with a conductance-based function that acts like a
+tuning parameter to control the diffusion speed. In contrast to
+existing diffusion mechanisms which operate with global and
+fixed speed, Stad introduces stateful diffusion to treat every
+community individually."
+  - startTime: "14:45"
+    endTime: "15:15"
+    type: presentation
+    title: "Towards Ontology-Based Event Processing"
+    events:
+      - title: "Riccardo Tommasini: Politecnico di Milano, Italy"
+        speakers: "Abstract: Data variety and velocity call for real-time decision making systems that can interpret complex domain models. In this talk, we present the vision of Ontology-Based Event Processing that bridges the gap between ontology-based reasoning and event processing. I will propose a language and an architecture to perform event processing over abstract ontology concepts. OBEP allows performing practical temporal reasoning, while the high-level ontological definitions reduce the need for knowledge of the underlying data structure in complex domains."
+  - startTime: "15:115"
+    endTime: "16:00"
+    title: "Coffee Break"
+    type: "service"
+  - startTime: "16:00"
+    endTime: "16:30"
+    type: presentation
+    title: "Deterministic Model for Distributed Speculative Stream Processing"
+    events:
+      - title: "Artem Trofimov: JetBrains Research, Saint Petersburg State University, Russia"
+        speakers: "Abstract: Exactly-once semantics without high latency overhead is still hard to achieve within state-of-the-art stream processing systems. We introduce a model providing for exactly-once using lightweight optimistic approach for obtaining determinism and idempotence. We show its feasibility with a prototype."
+  - startTime: "16:30"
+    endTime: "17:00"
+    type: presentation
+    title: "Proof of Trust Blockchains - Can trust save energy?"
+    events:
+      - title: "Leila Bahri: KTH EECS, Sweden"
+        speakers: "Abstract:  Blockchains are attracting the attention of many technical, financial, and industrial parties, as a promising infrastructure for achieving secure peer-to-peer (P2P) transactional systems. At the heart of blockchains is proof-of-work (PoW), a trustless leader election mechanism based on demonstration of computational power. PoW provides secure consensus in trustless P2P environments, but comes at the expense of wasting huge amounts of expensive energy. We question this energy expenditure in use cases where some form of trust exists between the peers and design a Proof-of-Trust (PoT) protocol, that valuates peers trust in the network and uses it as a waiver for the energy that has to be spent."
+
+- date: "2018-09-27"
+  dateReadable: "Data Processing Systems - September 26th"
+  timeslots:
+  - startTime: "09:30"
+    endTime: "10:00"
+    title: "Coffee & Morning Discussions"
+    type: "service"
+  - startTime: "10:00"
+    endTime: "10:30"
+    type: presentation
+    title: "Scaling Deep Learning on Multi-GPU Servers"
+    events:
+      - title: "Peter Pietzuch: Imperial College London, UK"
+        speakers: "Abstract: With the widespread availability of GPU servers, scalability in terms of the number of GPUs when training deep learning models becomes a paramount concern. For many deep learning models, there is a scalability challenge: to keep multiple GPUs fully utilised, the batch size must be sufficiently large, but a large batch size slows down model convergence due to the less frequent model updates. In this talk, I describe CrossBow, a new single-server multi-GPU deep learning system that avoids the above trade-off. CrossBow trains multiple model replicas concurrently on each GPU, thereby avoiding under-utilisation of GPUs even when the preferred batch size is small. For this, CrossBow (i) decides on an appropriate number of model replicas per GPU and (ii) employs an efficient and scalable synchronisation scheme within and across GPUs."
+  - startTime: "10:30"
+    endTime: "11:00"
+    type: presentation
+    title: "From Weld to Arc"
+    events:
+      - title: "Lars Kroll: KTH EECS, Sweden (Intro by Paris Carbone)"
+        speakers: "Weld is an intermediate representation (IR) for unifying batch processing systems in different languages and frameworks, thus avoiding materialisation costs for intermediate results. In this talk we will show that with minor alterations a Weld-like IR can also be used for a Stream Processing use case, allowing unification and optimisation across programming languages and models."
+  - startTime: "11:00"
+    endTime: "11:15"
+    title: "Coffee Break"
+    type: "service"
+  - startTime: "11:15"
+    endTime: "11:45"
+    type: presentation
+    title: "Optimizing Across Relational and Linear Algebra in Parallel Analytics Pipelines"
+    events:
+      - title: "Asterios Katsifodimos: TU Delft, Netherlands"
+        speakers: "My talk will be split in two parts. In the first part I will briefly introduce a deeply embedded language in Scala, which enables authoring scalable programs using two abstract data types, namely DataBag and Matrix, enabling joint optimizations over both relational and linear algebra. In the second part I will discuss a concrete optimization which can be applied in the context of analysis programs comprising both linear and relational algebra operations. More specifically, I will present BlockJoin, a distributed join algorithm presented in this year's VLDB, which emits block-partitioned results to subsequent linear algebra operations such as matrix multiplications. BlockJoin applies database techniques known from columnar processing, such as index-joins and late materialization, in the context of parallel dataflow engines, in order to minimize very expensive shuffling costs. "
+  - startTime: "11:45"
+    endTime: "12:15"
+    type: presentation
+    title: "Fast, accurate, automatic scaling decisions for distributed streaming dataflows"
+    events:
+      - title: "Vasiliki Kalavri (Vasia): ETH Zurich, Switzerland"
+  - startTime: "12:10"
+    endTime: "13:30"
+    title: "Lunch"
+    type: "service"
+  - startTime: "13:30"
+    endTime: "14:00"
+    type: presentation
+    title: "DRS: Resource Auto-Scaling for Real-Time Stream Analytics"
+    events:
+      - title: "Tom Zhengjia Fu, Un. of Illinois Urbana Champaign, USA"
+        speakers: "We propose DRS, a dynamic resource scaling framework for cloud-based stream data analytics systems. DRS overcomes three fundamental challenges: (i) how to model the relationship between the provisioned resources and the application performance, (ii) where to best place resources, and (iii) how to measure the system load with minimal overhead. In particular, DRS includes an accurate performance model based on the theory of Jackson open queueing networks and is capable of handling arbitrary operator topologies, possibly with loops, splits and joins. Extensive experiments with real data show that DRS is capable of detecting sub-optimal resource allocation and making quick and effective resource adjustment."
+  - startTime: "14:00"
+    endTime: "14:30"
+    type: presentation
+    title: "Parameter Server on Flink, an approach for model-parallel machine learning"
+    events:
+      - title: "Dániel Berecz, MTA SZTAKI, Hungary"
+        speakers: "In this talk we show a Parameter Server implementation in Flink for model-parallel machine learning. To scale efficiently, some machine learning algorithms not only require the input to be processed in parallel, but to train and store the model in a distributed manner. The Parameter Server provides an abstraction layer for the distributed model, so the implementation of such algorithms is much easier. We present how our Parameter Server can be used for model-parallel training in Flink through recommendation with matrix factorization. Our implementation is built entirely on top of the Streaming API, so Flink can also be used to preprocess the data and even to serve predictions in a single job. "
+  - startTime: "14:30"
+    endTime: "14:45"
+    title: "Coffee Break"
+    type: "service"
+  - startTime: "14:45"
+    endTime: "15:15"
+    type: presentation
+    title: "Hopsworks"
+    events:
+      - title: "Jim, Mahmood and Salman, Logical Clocks"
+        speakers: "Software-defined, container-based, immutable software platforms are currently the dominant approach for both development and production machine learning pipelines. However, this approach adds software development complexity and externalizes responsibility for stateful services, such as security and data management, to the parent cloud platform, leading to cloud vendor lock-in.
+In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale-out data science, based on Hops Hadoop. Hopsworks builds a comprehensive security model based on certificates by extending the metadata for Hops' HDFS-compatible distributed filesystem, HopsFS, to introduce a new project abstraction that provides dynamic role-based access control to data with no runtime overhead. Projects enable sandboxed access to sensitive data in a shared platform. Projects also have persistent state in the cluster, with their own conda environment replicated at all hosts in the cluster, reducing application startup time. Hopsworks also provides support for the scheduling of distributed TensorFlow/Keras/PyTorch applications on GPUs. Hopsworks is open-source and we present extensive production statistics to demonstrate its properties."
+  - startTime: "15:15"
+    endTime: "15:45"
+    type: presentation
+    title: "The CASTOR Software Research Center"
+    events:
+      - title: "Benoit Baudry, KTH EECS & CASTOR, Sweden"
+        speakers: "In this talk I introduce the CASTOR is researcher center. The center, created as a collaboration between KTH, SAAB and Ericsson, focuses on research in the area of software technology to build reliable, secure, distributed and embedded software systems. I will illustrate the type of technology that we develop, focusing on the latest results in the area of software testing and automatic repair."
