@@ -17,9 +17,9 @@
 css: ./assets/discan.css
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 # gems:
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# exclude:
+  # - Gemfile
+  # - Gemfile.lock
 
