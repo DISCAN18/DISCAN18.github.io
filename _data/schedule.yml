@@ -59,14 +59,14 @@ tuning parameter to control the diffusion speed. In contrast to
 existing diffusion mechanisms which operate with global and
 fixed speed, Stad introduces stateful diffusion to treat every
 community individually."
-  - startTime: "14:45"
-    endTime: "15:15"
+  - startTime: "15:15"
+    endTime: "15:45"
     type: presentation
     title: "Towards Ontology-Based Event Processing"
     events:
       - title: "Riccardo Tommasini: Politecnico di Milano, Italy"
         speakers: "Abstract: Data variety and velocity call for real-time decision making systems that can interpret complex domain models. In this talk, we present the vision of Ontology-Based Event Processing that bridges the gap between ontology-based reasoning and event processing. I will propose a language and an architecture to perform event processing over abstract ontology concepts. OBEP allows performing practical temporal reasoning, while the high-level ontological definitions reduce the need for knowledge of the underlying data structure in complex domains."
-  - startTime: "15:115"
+  - startTime: "15:45"
     endTime: "16:00"
     title: "Coffee Break"
     type: "service"
