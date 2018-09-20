@@ -51,7 +51,7 @@ In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale
     type: presentation
     title: "Stad: Stateful Diffusion for Linear Time Community Detection"
     events:
-      - title: "Amira Soliman: KTH EECS, Sweden"
+      - title: "Amira Soliman: RISE SICS, Sweden"
         speakers: "Abstract: In this talk, we present a stateful diffusion approach (Stad)
 for community detection that employs diffusion. Stad boosts
 diffusion with a conductance-based function that acts like a
