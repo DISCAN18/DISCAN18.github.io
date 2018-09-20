@@ -1,10 +1,15 @@
 - date: "2018-09-26"
-  dateReadable: "Decentralized Computing - September 26th"
+  dateReadable: "September 26th"
   timeslots:
   - startTime: "10:00"
-    endTime: "11:00"
+    endTime: "10:50"
     title: "Coffee & Morning Discussions"
     type: "service"
+  - startTime: "10:50"
+    endTime: "11:00"
+    type: presentation
+    title: "Event Inauguration"
+    speaker: "Seif Haridi"
   - startTime: "11:00"
     endTime: "11:30"
     type: presentation
@@ -25,10 +30,11 @@
   - startTime: "13:30"
     endTime: "14:00"
     type: presentation
-    title: "Edge Compute at Hyperscale"
+    title: "Hopworks: The Cloud-Agnostic Platform for Scale-Out Data Science"
     events:
-      - title: "Ali Shoker: INESC TEC, Portugal"
-        speakers: "Abstract: Edge computing is an extension to cloud computing that brings some of the computation and storage closer to the user. In addition to reducing the loads on the cloud datacenters, this brings several benefits like reduced response times, resilience to network failures, and privacy. The challenge is however how to build edge applications that are close to classical cloud applications as much as possible, i.e., beyond solo edge device computing or sticking to immutable data in a Peer to Peer manner. In this talk, we show how Conflict-free Replicated DataTypes (CRDT) can help building edge applications using replicated (mutable) data in a loosely coupled fashion. We then touch upon a novel hyper-scalable CRDT design where the meta-data overhead is logarithmic to the number of edge nodes."
+      - title: "Mahmood Ismail, Logical Clocks & KTH, Sweden"
+        speakers: "Software-defined, container-based, immutable software platforms are currently the dominant approach for both development and production machine learning pipelines. However, this approach adds software development complexity and externalizes responsibility for stateful services, such as security and data management, to the parent cloud platform, leading to cloud vendor lock-in.
+In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale-out data science, based on Hops Hadoop. Hopsworks builds a comprehensive security model based on certificates by extending the metadata for Hops' HDFS-compatible distributed filesystem, HopsFS, to introduce a new project abstraction that provides dynamic role-based access control to data with no runtime overhead. Projects enable sandboxed access to sensitive data in a shared platform. Projects also have persistent state in the cluster, with their own conda environment replicated at all hosts in the cluster, reducing application startup time. Hopsworks also provides support for the scheduling of distributed TensorFlow/Keras/PyTorch applications on GPUs. Hopsworks is open-source and we present extensive production statistics to demonstrate its properties."  
   - startTime: "14:00"
     endTime: "14:30"
     type: presentation
@@ -80,7 +86,7 @@ community individually."
         speakers: "Abstract:  Blockchains are attracting the attention of many technical, financial, and industrial parties, as a promising infrastructure for achieving secure peer-to-peer (P2P) transactional systems. At the heart of blockchains is proof-of-work (PoW), a trustless leader election mechanism based on demonstration of computational power. PoW provides secure consensus in trustless P2P environments, but comes at the expense of wasting huge amounts of expensive energy. We question this energy expenditure in use cases where some form of trust exists between the peers and design a Proof-of-Trust (PoT) protocol, that valuates peers trust in the network and uses it as a waiver for the energy that has to be spent."
 
 - date: "2018-09-27"
-  dateReadable: "Data Processing Systems - September 27th"
+  dateReadable: "September 27th"
   timeslots:
   - startTime: "09:30"
     endTime: "10:00"
@@ -142,11 +148,10 @@ community individually."
   - startTime: "14:45"
     endTime: "15:15"
     type: presentation
-    title: "Hopsworks"
+    title: "Edge Compute at Hyperscale"
     events:
-      - title: "Jim, Mahmood and Salman, Logical Clocks"
-        speakers: "Software-defined, container-based, immutable software platforms are currently the dominant approach for both development and production machine learning pipelines. However, this approach adds software development complexity and externalizes responsibility for stateful services, such as security and data management, to the parent cloud platform, leading to cloud vendor lock-in.
-In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale-out data science, based on Hops Hadoop. Hopsworks builds a comprehensive security model based on certificates by extending the metadata for Hops' HDFS-compatible distributed filesystem, HopsFS, to introduce a new project abstraction that provides dynamic role-based access control to data with no runtime overhead. Projects enable sandboxed access to sensitive data in a shared platform. Projects also have persistent state in the cluster, with their own conda environment replicated at all hosts in the cluster, reducing application startup time. Hopsworks also provides support for the scheduling of distributed TensorFlow/Keras/PyTorch applications on GPUs. Hopsworks is open-source and we present extensive production statistics to demonstrate its properties."
+      - title: "Ali Shoker: INESC TEC, Portugal"
+        speakers: "Abstract: Edge computing is an extension to cloud computing that brings some of the computation and storage closer to the user. In addition to reducing the loads on the cloud datacenters, this brings several benefits like reduced response times, resilience to network failures, and privacy. The challenge is however how to build edge applications that are close to classical cloud applications as much as possible, i.e., beyond solo edge device computing or sticking to immutable data in a Peer to Peer manner. In this talk, we show how Conflict-free Replicated DataTypes (CRDT) can help building edge applications using replicated (mutable) data in a loosely coupled fashion. We then touch upon a novel hyper-scalable CRDT design where the meta-data overhead is logarithmic to the number of edge nodes."  
   - startTime: "15:15"
     endTime: "15:45"
     type: presentation
@@ -154,3 +159,9 @@ In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale
     events:
       - title: "Benoit Baudry, KTH EECS & CASTOR, Sweden"
         speakers: "In this talk I introduce the CASTOR is researcher center. The center, created as a collaboration between KTH, SAAB and Ericsson, focuses on research in the area of software technology to build reliable, secure, distributed and embedded software systems. I will illustrate the type of technology that we develop, focusing on the latest results in the area of software testing and automatic repair."
+  - startTime: "15:45"
+    endTime: "16:15"
+    type: presentation
+    title: "Hopsworks Demo"
+    events:
+      - title: "Jim Dowling, Logical Clocks, Sweden"
