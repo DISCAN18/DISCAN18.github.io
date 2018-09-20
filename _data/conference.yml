@@ -46,6 +46,8 @@ sponsors:
     logo_path: ./assets/images/sponsors/kth-logo.png
   - name: RISE, Research Institutes of Sweden
     logo_path: ./assets/images/sponsors/rise-logo.png
+  - name: CASTOR, Software Research Center
+    logo_path: ./assets/images/sponsors/CASTOR-logo.png
 social_media:
 program_organisation:
   - name: Paris Carbone
