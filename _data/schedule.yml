@@ -33,7 +33,7 @@
     type: presentation
     title: "Hopworks: The Cloud-Agnostic Platform for Scale-Out Data Science"
     events:
-      - title: "Mahmood Ismail, Logical Clocks & KTH, Sweden"
+      - title: "Mahmoud Ismail, Logical Clocks & KTH, Sweden"
         speakers: "Abstract: Software-defined, container-based, immutable software platforms are currently the dominant approach for both development and production machine learning pipelines. However, this approach adds software development complexity and externalizes responsibility for stateful services, such as security and data management, to the parent cloud platform, leading to cloud vendor lock-in.
 In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale-out data science, based on Hops Hadoop. Hopsworks builds a comprehensive security model based on certificates by extending the metadata for Hops' HDFS-compatible distributed filesystem, HopsFS, to introduce a new project abstraction that provides dynamic role-based access control to data with no runtime overhead. Projects enable sandboxed access to sensitive data in a shared platform. Projects also have persistent state in the cluster, with their own conda environment replicated at all hosts in the cluster, reducing application startup time. Hopsworks also provides support for the scheduling of distributed TensorFlow/Keras/PyTorch applications on GPUs. Hopsworks is open-source and we present extensive production statistics to demonstrate its properties."  
   - startTime: "14:00"
