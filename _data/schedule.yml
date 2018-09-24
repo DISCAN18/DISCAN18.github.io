@@ -22,7 +22,7 @@
     type: presentation
     title: "Dataset Marketplace Support for Deep Learning"
     events:
-      - title: "Alex Ormenisan: KTH EECS, Sweden"
+      - title: "Alex Ormenisan: Logical Clocks & KTH, Sweden"
         speakers: "Abstract: Large datasets ranging from tens of gigabytes or terabytes are the core of deep learning. Transferring these datasets from one platform to another can be a challenging task. There is also a need to be able to reproduce or re-run these experiments. As such, the link between computation and datasets as well as dataset evolution is important to track. "
   - startTime: "12:00"
     endTime: "13:30"
