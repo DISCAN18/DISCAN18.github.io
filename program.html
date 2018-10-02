@@ -41,7 +41,8 @@ slide_id: 2
                                 <td width="20%">
                                 </td>
                                 <td>
-                                    <p><b>{{event.title}}</b></p>
+                                    <p><b>{% if event.short %}<a href = "./assets/presentations/{{event.short}}.pdf"><img src="./assets/images/pdf.png" style="max-width:32px;
+    max-height:32px;"> </a>{% endif %}{{event.title}}</b></p>
                                     <p><i>{{event.speakers}}</i></p>
                                 </td>
                             </tr>

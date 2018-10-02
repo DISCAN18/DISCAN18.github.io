@@ -16,6 +16,7 @@
     title: "Sharing Knowledge without Sharing Data: Secure Multiparty Computation on Big Data"
     events:
       - title: "Azer Bestavros: Boston University, USA"
+        short: "azer"
         speakers: "A common misconception that dominates our society is the belief that data sharing is a prerequisite to knowledge sharing. This is often translated into a false choice between data utility and data privacy, resulting in handicapping our ability to fully leverage data or else sacrificing privacy and confidentiality. In this talk, I will argue for an alternative tack that allows knowledge extraction from one or more data sets, which remain otherwise private, using a cryptographic technique called secure multi-party computation (MPC). I will begin by introducing MPC and by sharing my experience in deploying this technology for a study of the gender pay gap in Boston based on actual, confidential payroll data from hundreds of employers that cover tens of thousands of employees. Next, I will provide an overview of projects we have pursued to enable the use of MPC in various settings and under different assumptions, including incorporation of optimized MPC implementations of common algorithms into software libraries and the integration of MPC into existing big-data workflow management in a cloud setting."
   - startTime: "11:30"
     endTime: "12:00"
@@ -34,6 +35,7 @@
     title: "Hopworks: The Cloud-Agnostic Platform for Scale-Out Data Science"
     events:
       - title: "Mahmoud Ismail, Logical Clocks & KTH, Sweden"
+        short: "mahmoud"
         speakers: "Abstract: Software-defined, container-based, immutable software platforms are currently the dominant approach for both development and production machine learning pipelines. However, this approach adds software development complexity and externalizes responsibility for stateful services, such as security and data management, to the parent cloud platform, leading to cloud vendor lock-in.
 In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale-out data science, based on Hops Hadoop. Hopsworks builds a comprehensive security model based on certificates by extending the metadata for Hops' HDFS-compatible distributed filesystem, HopsFS, to introduce a new project abstraction that provides dynamic role-based access control to data with no runtime overhead. Projects enable sandboxed access to sensitive data in a shared platform. Projects also have persistent state in the cluster, with their own conda environment replicated at all hosts in the cluster, reducing application startup time. Hopsworks also provides support for the scheduling of distributed TensorFlow/Keras/PyTorch applications on GPUs. Hopsworks is open-source and we present extensive production statistics to demonstrate its properties."  
   - startTime: "14:00"
@@ -42,6 +44,7 @@ In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale
     title: "Automerge: Replicated data structures for peer-to-peer collaboration"
     events:
       - title: "Martin Kleppmann: University of Cambridge, UK"
+        short: "martin"
         speakers: "Abstract: This talk introduces Automerge, a JavaScript library for data synchronisation between mobile devices such as laptop computers and smartphones. It allows users to read and modify data even while their device is offline, and it automatically merges changes made concurrently on different devices. Unlike most existing data synchronisation systems, Automerge does not require data to be sent via a centralised server, but rather allows local and peer-to-peer networks to be used. We show how this project spans the gamut from the theory of Conflict-free Replicated Data Types (CRDTs) and formal verification, all the way to implementing collaborative applications that use these data structures."
   - startTime: "14:30"
     endTime: "14:45"
@@ -53,6 +56,7 @@ In this presentation, we introduce Hopworks, a cloud-agnostic platform for scale
     title: "Stad: Stateful Diffusion for Linear Time Community Detection"
     events:
       - title: "Amira Soliman: RISE SICS, Sweden"
+        short: "amira"
         speakers: "Abstract: In this talk, we present a stateful diffusion approach (Stad)
 for community detection that employs diffusion. Stad boosts
 diffusion with a conductance-based function that acts like a
@@ -66,6 +70,7 @@ community individually."
     title: "Towards Ontology-Based Event Processing"
     events:
       - title: "Riccardo Tommasini: Politecnico di Milano, Italy"
+        short: "riccardo"
         speakers: "Abstract: Data variety and velocity call for real-time decision making systems that can interpret complex domain models. In this talk, we present the vision of Ontology-Based Event Processing that bridges the gap between ontology-based reasoning and event processing. I will propose a language and an architecture to perform event processing over abstract ontology concepts. OBEP allows performing practical temporal reasoning, while the high-level ontological definitions reduce the need for knowledge of the underlying data structure in complex domains."
   - startTime: "15:45"
     endTime: "16:00"
@@ -77,6 +82,7 @@ community individually."
     title: "Deterministic Model for Distributed Speculative Stream Processing"
     events:
       - title: "Artem Trofimov: JetBrains Research, Saint Petersburg State University, Russia"
+        short: "artem"
         speakers: "Abstract: Exactly-once semantics without high latency overhead is still hard to achieve within state-of-the-art stream processing systems. We introduce a model providing for exactly-once using lightweight optimistic approach for obtaining determinism and idempotence. We show its feasibility with a prototype."
   - startTime: "16:30"
     endTime: "17:00"
@@ -99,6 +105,7 @@ community individually."
     title: "Scaling Deep Learning on Multi-GPU Servers"
     events:
       - title: "Peter Pietzuch: Imperial College London, UK"
+        short: "peter"
         speakers: "Abstract: With the widespread availability of GPU servers, scalability in terms of the number of GPUs when training deep learning models becomes a paramount concern. For many deep learning models, there is a scalability challenge: to keep multiple GPUs fully utilised, the batch size must be sufficiently large, but a large batch size slows down model convergence due to the less frequent model updates. In this talk, I describe CrossBow, a new single-server multi-GPU deep learning system that avoids the above trade-off. CrossBow trains multiple model replicas concurrently on each GPU, thereby avoiding under-utilisation of GPUs even when the preferred batch size is small. For this, CrossBow (i) decides on an appropriate number of model replicas per GPU and (ii) employs an efficient and scalable synchronisation scheme within and across GPUs."
   - startTime: "10:30"
     endTime: "11:00"
@@ -106,6 +113,7 @@ community individually."
     title: "From Weld to Arc"
     events:
       - title: "Lars Kroll: KTH EECS, Sweden (Intro by Paris Carbone)"
+        short: "lars"
         speakers: "Abstract: Weld is an intermediate representation (IR) for unifying batch processing systems in different languages and frameworks, thus avoiding materialisation costs for intermediate results. In this talk we will show that with minor alterations a Weld-like IR can also be used for a Stream Processing use case, allowing unification and optimisation across programming languages and models."
   - startTime: "11:00"
     endTime: "11:15"
@@ -142,6 +150,7 @@ community individually."
     title: "Parameter Server on Flink, an approach for model-parallel machine learning"
     events:
       - title: "Dániel Berecz, MTA SZTAKI, Hungary"
+        short: "daniel"
         speakers: "Abstract: In this talk we show a Parameter Server implementation in Flink for model-parallel machine learning. To scale efficiently, some machine learning algorithms not only require the input to be processed in parallel, but to train and store the model in a distributed manner. The Parameter Server provides an abstraction layer for the distributed model, so the implementation of such algorithms is much easier. We present how our Parameter Server can be used for model-parallel training in Flink through recommendation with matrix factorization. Our implementation is built entirely on top of the Streaming API, so Flink can also be used to preprocess the data and even to serve predictions in a single job. "
   - startTime: "14:30"
     endTime: "14:45"
@@ -153,6 +162,7 @@ community individually."
     title: "Edge Compute at Hyperscale"
     events:
       - title: "Ali Shoker: INESC TEC, Portugal"
+        short: "ali"
         speakers: "Abstract: Edge computing is an extension to cloud computing that brings some of the computation and storage closer to the user. In addition to reducing the loads on the cloud datacenters, this brings several benefits like reduced response times, resilience to network failures, and privacy. The challenge is however how to build edge applications that are close to classical cloud applications as much as possible, i.e., beyond solo edge device computing or sticking to immutable data in a Peer to Peer manner. In this talk, we show how Conflict-free Replicated DataTypes (CRDT) can help building edge applications using replicated (mutable) data in a loosely coupled fashion. We then touch upon a novel hyper-scalable CRDT design where the meta-data overhead is logarithmic to the number of edge nodes."  
   - startTime: "15:15"
     endTime: "15:45"
@@ -160,6 +170,7 @@ community individually."
     title: "The CASTOR Software Research Center"
     events:
       - title: "Benoit Baudry, KTH EECS & CASTOR, Sweden"
+        short: "benoit"
         speakers: "Abstract: In this talk I introduce the CASTOR is researcher center. The center, created as a collaboration between KTH, SAAB and Ericsson, focuses on research in the area of software technology to build reliable, secure, distributed and embedded software systems. I will illustrate the type of technology that we develop, focusing on the latest results in the area of software testing and automatic repair."
   - startTime: "15:45"
     endTime: "16:15"
@@ -167,3 +178,4 @@ community individually."
     title: "Hopsworks Demo"
     events:
       - title: "Jim Dowling, Logical Clocks, Sweden"
+        short: "jim"
