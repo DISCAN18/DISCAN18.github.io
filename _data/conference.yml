@@ -33,6 +33,8 @@ navbar:
     path: /venue.html
     visible: True
 news:
+  - date: 2018-10-01
+    text: Slides Uploaded
   - date: 2018-09-20
     text: Program Updated
   - date: 2018-09-19
